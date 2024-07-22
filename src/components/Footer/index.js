@@ -20,7 +20,7 @@ const Footer = () => {
         Interesting Stories | Updates | Guides
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe to learn about new technology and updates. Join over 5000+
+        Subscribe to learn about new technology and updates. Join over 3000+
         members community to stay up to date with latest news.
       </p>
 
@@ -68,31 +68,18 @@ const Footer = () => {
         >
           <GithubIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease duration-200" />
         </a>
-        <a
-          href={siteMetadata.dribbble}
-          className="inline-block w-6 h-6 mr-4"
-          aria-label="Check my profile on Dribbble"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
-        </a>
+       
       </div>
 
       <div className="w-full  mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 CodeBucks. All rights reserved.
+          &copy;2024 Shara. All rights reserved.
         </span>
-        <Link
-          href="/sitemap.xml"
-          className="text-center underline my-4 md:my-0"
-        >
-          sitemap.xml
-        </Link>
+        
         <div className="text-center">
           Made with &hearts; by{" "}
-          <a href="https://devdreaming.com" className="underline" target="_blank">
-            CodeBucks
+          <a href="https://www.upwork.com/freelancers/sharafatsaqib" className="underline" target="_blank">
+            Sharafat Saqib
           </a>
         </div>
       </div>
